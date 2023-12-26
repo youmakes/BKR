@@ -1,7 +1,7 @@
 body {
 	max-width: 1440px;
+	font-family: "DM Sans", sans-serif;
 	margin: auto;
-	background-color: gray;
 }
 
 .header {
@@ -36,4 +36,48 @@ body {
 		border: none;
 		cursor: pointer;
 	}
+}
+
+.preview {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	.preview__description {
+		position: relative;
+		background: rgba(231, 212, 190, 0.44);
+		padding: 160px 123px 241px 135px;
+
+		.preview__title {
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			line-height: 32px;
+		}
+		.preview__subtitle {
+			font-size: 72px;
+			padding: 21px 0px 27px 0px;
+		}
+
+		.preview__text {
+			font-size: 20px;
+		}
+
+		.preview__description-image {
+			position: absolute;
+			top: 20px;
+			left: 0px;
+		}
+		.preview__description-image:last-child {
+			position: absolute;
+			top: 190px;
+			left: 390px;
+		}
+	}
+
+	.preview__image {
+		background-image: url('/images/background.png');
+		background-position: center;
+		background-size: cover;
+	}
+
 }

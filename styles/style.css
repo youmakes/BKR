@@ -1,7 +1,7 @@
 body {
   max-width: 1440px;
+  font-family: "DM Sans", sans-serif;
   margin: auto;
-  background-color: gray;
 }
 
 .header {
@@ -10,19 +10,24 @@ body {
   background-color: white;
   padding: 16px 135px 25px;
 }
+
 .header .header__logo {
   margin-right: 72px;
 }
+
 .header .menu {
   margin-right: 565px;
 }
+
 .header .menu__list {
   display: flex;
   gap: 60px;
 }
+
 .header .menu__link-item {
   text-decoration: none;
 }
+
 .header .button {
   background-color: black;
   color: white;
@@ -30,4 +35,49 @@ body {
   padding: 12px 41px;
   border: none;
   cursor: pointer;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.preview {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.preview .preview__description {
+  position: relative;
+  background: rgb(231 212 190 / 0.44);
+  padding: 160px 123px 241px 135px;
+}
+
+.preview .preview__description .preview__title {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+
+.preview .preview__description .preview__subtitle {
+  font-size: 72px;
+  padding: 21px 0 27px;
+}
+
+.preview .preview__description .preview__text {
+  font-size: 20px;
+}
+
+.preview .preview__description .preview__description-image {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.preview .preview__description .preview__description-image:last-child {
+  position: absolute;
+  top: 190px;
+  left: 390px;
+}
+
+.preview .preview__image {
+  background-image: url("/images/background.png");
+  background-position: center;
+  background-size: cover;
+}
