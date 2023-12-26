@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Oswald&family=Ultra&display=swap");
+
+.text_font-ultra {
+	font-family: "Ultra", serif;
+	font-size: 40px;
+}
+
+.text_font-dm-sans {
+	font-family: "DM Sans", sans-serif;
+}
+
+.text_font-oswald {
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+}
