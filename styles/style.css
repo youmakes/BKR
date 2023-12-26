@@ -1,42 +1,33 @@
-/* Шапка сайта */
 body {
-	max-width: 1440px;
-	margin: auto;
-	background-color: gray;
+  max-width: 1440px;
+  margin: auto;
+  background-color: gray;
 }
 
 .header {
-	display: flex;
-	align-items: center;
-	background-color: white;
-	padding: 16px 135px 25px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 16px 135px 25px;
 }
-
-.header__logo {
-	margin-right: 72px;
+.header .header__logo {
+  margin-right: 72px;
 }
-
-.menu {
-	margin-right: 565px;
+.header .menu {
+  margin-right: 565px;
 }
-
-.menu__list {
-	display: flex;
-	gap: 60px;
+.header .menu__list {
+  display: flex;
+  gap: 60px;
 }
-
-.menu__link-item {
-	text-decoration: none;
+.header .menu__link-item {
+  text-decoration: none;
 }
-
-.button {
-	background-color: black;
-	color: white;
-	text-transform: uppercase;
-	padding: 12px 41px;
-	border: none;
-	cursor: pointer;
-}
-
-
-
+.header .button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 12px 41px;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
